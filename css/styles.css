@@ -1,0 +1,78 @@
+h1{
+    color: white;
+    background-color: rgb(100, 159, 167);
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+    background-color: rgb(100, 159, 167);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    font-family: sans-serif;
+
+}
+nav a:active{
+    background-color: cyan;
+
+}
+ul{
+    background-color: rgb(190, 183, 183);
+    margin-top: -35px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: rgb(100, 159, 167);
+}
+
+li{
+    
+    display: inline-block;
+    font-family: sans-serif;
+    margin-inline: 100px;
+    width: fit-content;
+    padding-top: 3%;
+}
+img{
+    display:inline-block;
+    border:rgb(100, 159, 167);
+    border-style: solid;
+    border-width: 30px;
+    
+}
+#Myself{
+    float: left;
+    border:rgb(100, 159, 167);
+    border-style: solid;
+    border-width: 30px;
+
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 30px;
+    margin-top: -10px;
+    
+     
+}
+#aboutme{
+   margin-top: 80px;
+ margin-left: 50px;
+    display: inline-block;
+    width: 300px;
+    font-family: sans-serif;
+}
+footer{
+    background-color: rgb(190, 183, 183);
+    font-size: 20px;
+  
+}
+#degree{
+    margin-top: -40px;
+    background-color: rgb(190, 183, 183);
+    text-align: center;
+}
