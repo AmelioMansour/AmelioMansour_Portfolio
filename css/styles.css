@@ -78,14 +78,20 @@ blockquote{
     font-family: sans-serif;
     word-wrap: break-word;
 }
+#indexfoot{
+    background-color: rgb(190, 183, 183);
+    font-size: 20px;
+    margin-top: 0px;    
+}
+
 footer{
     background-color: rgb(190, 183, 183);
     font-size: 20px;
-  
+    margin-top: 100px;
 }
 #degree{
     margin-top: -23px;
-    background-color: rgb(190, 183, 183);
+    background-color:rgb(100, 159, 167);
     text-align: center;
     padding-left: 0%;
 }
