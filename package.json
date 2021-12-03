@@ -1,0 +1,27 @@
+{
+  "name": "ameliomansour_portfolio_website",
+  "version": "1.0.0",
+  "description": "Portfolio page",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmelioMansour/AmelioMansour_hw2_csi2520_fs2021.git"
+  },
+  "author": "Amelio Mansour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmelioMansour/AmelioMansour_hw2_csi2520_fs2021/issues"
+  },
+  "homepage": "https://github.com/AmelioMansour/AmelioMansour_hw2_csi2520_fs2021#readme"
+}
