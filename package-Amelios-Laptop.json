@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "node index"
+    
   },
   "repository": {
     "type": "git",

@@ -29,11 +29,11 @@ app.get("/views/html/blog.ejs", (req, res) => {
     res.render("./html/blog");
 });
 app.get("/views/html/trivia.ejs", (req, res) => {
-    x=null;
+    x = null;
     res.render("./html/trivia");
 });
 //
-app.locals.x=null;
+app.locals.x = null;
 app.post("/getanswers/", (req, res) => {
     let x = 0;
     let data = {
@@ -52,11 +52,11 @@ app.post("/getanswers/", (req, res) => {
     if (data.a4 == "D") {
         x = x + 1;
     }
-    res.render('html/trivia.ejs',{x:x});
-    
-    
+    res.render('html/trivia.ejs', { x: x });
+
+
     res.send(console.log(x));
-    
+
 
 });
 
